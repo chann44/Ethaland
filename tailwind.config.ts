@@ -1,11 +1,13 @@
 import { type Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
+import { fontFamily, colors } from "tailwindcss/defaultTheme";
 
 export default {
   content: ["./src/**/*.tsx"],
   theme: {
     colors: {
       foreground: "#D2D6EF",
+      banner: "#3F4669",
+      ...colors,
     },
     extend: {
       fontFamily: {
