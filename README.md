@@ -1,5 +1,5 @@
 
-# Ethaland
+# Ethalend
 
 A awesome web3 project
 

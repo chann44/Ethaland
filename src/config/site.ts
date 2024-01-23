@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types/site";
 
 export const siteConfig: SiteConfig = {
-  name: "Ethaland",
+  name: "ETHALEND",
   description: "A awesome web3 project",
   links: {
     github: "https://github.com/chann44/Ethaland",
