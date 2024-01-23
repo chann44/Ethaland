@@ -64,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`background text-foreground container mx-auto min-h-screen w-full font-sans ${roboto.variable} ${roboto.className}`}
+        className={`background container mx-auto min-h-screen w-full font-sans text-foreground  ${roboto.variable} ${roboto.className}`}
       >
         <SiteHeader />
         {children}

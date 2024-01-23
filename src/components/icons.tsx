@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { HTMLAttributes } from "react";
 
-type Icon = HTMLAttributes<HTMLOrSVGElement>;
+export type Icon = HTMLAttributes<HTMLOrSVGElement>;
 
 export const Icons = {
   Dcoin: (props: Icon) => (
@@ -346,6 +346,8 @@ export const Icons = {
       height="21"
       viewBox="0 0 21 21"
       fill="none"
+      className={cn("w-max shrink-0", props.className)}
+      {...props}
     >
       <g opacity="0.95">
         <g filter="url(#filter0_ii_1_26)">
@@ -467,5 +469,21 @@ export const Icons = {
   ),
   plus: ({ className, ...props }: Icon) => (
     <p className={cn("text-sm text-[#D2D6EF4D]", className)}>+</p>
+  ),
+  chart: (props: Icon) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="11"
+      height="9"
+      viewBox="0 0 11 9"
+      fill="none"
+      {...props}
+    >
+      <path d="M10.8 8.1V9H0V0H0.9V8.1H10.8Z" fill="#D2D6EF" />
+      <path
+        d="M6.46428 4.57291L9.69041 1.34363L10.3276 1.97948L6.45798 5.84056L5.11203 4.49371L2.44713 7.11901L1.81263 6.48091L5.11383 3.22201L6.46428 4.57291Z"
+        fill="#D2D6EF"
+      />
+    </svg>
   ),
 };

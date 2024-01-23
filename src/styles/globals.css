@@ -8,7 +8,7 @@
 
 
 .card {
- background: (119deg, #464C6E 0%, #272B45 100%);
+ background: linear-gradient(119deg, #464C6E 0%, #272B45 100%);
 }
 
 .shadow-custom {
@@ -39,4 +39,24 @@
     border: 1px solid #5F6791;
     background: linear-gradient(90deg, #7662C4 0%, #5458F6 100%), linear-gradient(135deg, #4D557D 0%, #424869 100%);
     box-shadow: 8px 8px 22px 0px rgba(54, 59, 87, 0.24), -6px -6px 24px 0px rgba(85, 93, 131, 0.48), -1px -1px 4px 0px rgba(83, 92, 136, 0.12) inset, 1px 1px 1px 0px rgba(38, 49, 105, 0.05) inset;
+}
+
+
+.tab-active {
+    background: linear-gradient(135deg, #5E6488 0%, #424869 100%);
+}
+
+
+.select {
+    border-radius: 12px;
+border: 1px solid #5F6791;
+opacity: 0.95;
+background: linear-gradient(135deg, #495076 0%, #424869 100%);
+box-shadow: 8px 8px 22px 0px rgba(54, 59, 87, 0.24), -6px -6px 24px 0px rgba(85, 93, 131, 0.48), -1px -1px 4px 0px rgba(83, 92, 136, 0.12) inset, 1px 1px 1px 0px rgba(38, 49, 105, 0.05) inset;
+}
+
+.input {
+    border-radius: 16px;
+    background: linear-gradient(135deg, #424869 24.41%, #4A5178 81.64%);
+    box-shadow: 2px 2px 4px 0px rgba(38, 49, 105, 0.16) inset;
 }
