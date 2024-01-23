@@ -15,20 +15,14 @@ export const metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Server Components",
-    "Radix UI",
-  ],
+  keywords: ["Web3", "RWAs", "Tokens", "Crypto", "Web3"],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "Vikash Manda",
+      url: "https://notundfined.xyz/",
     },
   ],
-  creator: "shadcn",
+  creator: "vikash Manda",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -40,20 +34,20 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
+    images: [siteConfig.ogImage],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og.jpg`],
-    creator: "@shadcn",
+    images: [`${siteConfig.url}/og.png`],
+    creator: "@chan44",
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/icon.svg",
+    apple: "/apple-icon.svg",
   },
-  manifest: `${siteConfig.url}/site.webmanifest`,
 };
 
 export default function RootLayout({
