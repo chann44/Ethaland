@@ -1,7 +1,7 @@
 "use client";
 
 import { HTMLAttributes, ReactNode, useState } from "react";
-import { Icon, Icons } from "../icons";
+import { Icons } from "./icons";
 import { cn } from "@/lib/utils";
 import { Coin, useCoin, values } from "@/store/coin-store";
 

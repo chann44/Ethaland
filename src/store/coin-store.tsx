@@ -23,9 +23,9 @@ export const values: Coin[] = [
     Icon: Icons.Dcoin,
   },
   {
-    label: "ETH",
-    value: "eth",
-    Icon: Icons.Eth,
+    label: "USDC",
+    value: "usdc",
+    Icon: Icons.Usdc,
   },
   {
     label: "USDT",

@@ -68,11 +68,8 @@ export function VaultCard() {
         <div className="flex flex-col gap-y-4">
           <div className="text-4xl text-[#D2D6EF]">
             <div className="flex items-center gap-4">
-              <currentSelectedValue.Icon className="h-8 w-8" />
-              <p>
-                +{returns.returns.toFixed(3) ?? 0.0215}{" "}
-                {currentSelectedValue.label}
-              </p>
+              <Icons.Eth />
+              <p>+{returns.returns.toFixed(3) ?? 0.0215} ETH</p>
             </div>
             <div className="flex items-center gap-2">
               <p>

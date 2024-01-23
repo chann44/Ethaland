@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { Separator } from "./ui/seprator";
 import { Icons } from "@/components/icons";
 
-import { CurrencySelect } from "@/components/ui/select";
+import { CurrencySelect } from "@/components/coin-select";
 import { HelpTooltip } from "@/components/help-tooltip";
 
 import { useAmount } from "@/store/ammount-store";
@@ -37,7 +37,7 @@ const benefits = [
 export function Form() {
   const { amount, setAmount } = useAmount();
   return (
-    <div className="w-full max-w-sm py-10">
+    <div className="w-full max-w-sm pt-12">
       <div className="flex flex-col gap-y-4">
         <label htmlFor="amount">Amount</label>
         <div className="flex w-full gap-2.5">
