@@ -6,14 +6,14 @@ A awesome web3 project
 
 ## Demo
 
-https://www.loom.com/share/eed6a56708d840d986c2597994df7e19?sid=88545802-6e23-4bb5-85a7-8c21c3eee672
+https://www.loom.com/share/760234fda2b24f5bba5d9bf0dd03e92d?sid=6ed36e7e-a9db-4ab3-9982-6c8982af2e73
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/chann44/Ethaland
+  git clone https://github.com/chann44/Ethalend 
 ```
 
 Go to the project directory
