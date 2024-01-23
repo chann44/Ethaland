@@ -19,7 +19,7 @@ export function StrategyBanner() {
         Investing in this vault will lock up your stable asset <br /> and use
         the yield to invest into (ETH).
       </p>
-      <div className="flex items-center gap-10 py-2">
+      <div className="flex flex-col items-center gap-10 py-2 sm:flex-row">
         <CurrencyCluster />
         <div className="flex flex-col gap-y-2">
           {metricsData.map((item, index) => (

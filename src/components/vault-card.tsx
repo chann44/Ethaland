@@ -46,7 +46,7 @@ export function VaultCard() {
   return (
     <div className="card flex w-full flex-col rounded-2xl px-10 py-8">
       <div className="flex flex-col gap-y-4">
-        <div className="flex items-center justify-between py-5">
+        <div className="flex  items-center justify-between py-5">
           <h3 className="text-lg">Projected returns</h3>
           <Tabs>
             <TabItem
@@ -96,7 +96,7 @@ export function VaultCard() {
         </div>
         <Separator className="my-6" />
         <div className="flex flex-col gap-y-5">
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid gap-5 md:grid-cols-2">
             <FeesMetricCard>
               <FeesMetricTitle>{VaultCardData.deposit.title}</FeesMetricTitle>
               <FeesMetricCardContent>

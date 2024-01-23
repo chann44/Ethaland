@@ -42,16 +42,16 @@ export function Form() {
         <label htmlFor="amount">Amount</label>
         <div className="flex w-full gap-2.5">
           <CurrencySelect />
-          <div className="flex gap-2.5">
+          <div className="flex gap-2.5 overflow-hidden">
             <input
               onChange={(e) => {
                 setAmount(Number(e.target.value));
               }}
               value={amount?.toString()}
               type="text"
-              className="input w-[250px] shrink rounded-xl px-4 text-2xl  text-foreground focus:border-none focus:outline-none"
+              className="input shrink rounded-xl px-4 text-2xl text-foreground  focus:border-none focus:outline-none md:w-[250px]"
             />
-            <Icons.rightArrow className="w-max shrink-0 self-center" />
+            <Icons.rightArrow className="hidden w-max shrink-0 self-center md:block" />
           </div>
         </div>
       </div>
